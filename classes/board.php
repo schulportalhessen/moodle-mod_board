@@ -320,7 +320,6 @@ class board {
         return $DB->count_records_sql($sql, ['boardid' => $boardid]) > 0;
     }
 
-
     /**
      * Retrieves the board.
      *
@@ -1164,10 +1163,6 @@ class board {
 
         return !empty($board->showcommentusername);
     }
-
-
-
-
 
     /**
      * Checks to see if the user can rate the note.
