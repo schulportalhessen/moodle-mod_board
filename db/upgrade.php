@@ -235,7 +235,7 @@ function xmldb_board_upgrade(int $oldversion) {
         upgrade_mod_savepoint(true, 2022040110, 'board');
     }
 
-    if ($oldversion < 2023101902) {
+    if ($oldversion < 2022040111) {
 
         // Define field sortorder to be added to board_notes.
         $table = new xmldb_table('board');
@@ -247,7 +247,7 @@ function xmldb_board_upgrade(int $oldversion) {
         }
 
         // Board savepoint reached.
-        upgrade_mod_savepoint(true, 2023101902, 'board');
+        upgrade_mod_savepoint(true, 2022040111, 'board');
     }
 
     return true;
