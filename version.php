@@ -25,7 +25,8 @@
 defined('MOODLE_INTERNAL') || die;
 
 $plugin->component = 'mod_board'; // Full name of the plugin (used for diagnostics).
-$plugin->version   = 2022040110; // The current module version Use 2022.04.01 as base for 4.00.
-$plugin->requires  = 2022041900; // Moodle 4.00 and up.
+// $plugin->version = 2022040110; // The current module version Use 2022.04.01 as base for 4.00.
+$plugin->version = 2022040110; // Should not be changed for pull request but only during developing to initiate update process.
+$plugin->requires = 2022041900; // Moodle 4.00 and up.
 $plugin->release = '1.401.00 (Build 2022121200)';
-$plugin->maturity  = MATURITY_BETA;
+$plugin->maturity = MATURITY_BETA;
