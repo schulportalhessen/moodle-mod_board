@@ -267,3 +267,6 @@ $string['adminsetting:allowshowauthorofnoteonboard_desc'] = 'If activated the bo
 
 $string['allowshowauthorofnoteonboardenabled'] = 'This moodle <b>DOES</b> support to show author of notes.';
 $string['allowshowauthorofnoteonboarddisabled'] = 'This moodle does <b>NOT</b> support to show author of notes.';
+
+$string['allowaudit'] = 'Allow Audit';
+$string['allowaudit_desc'] = 'If activated deleted notes or comments will only be marked as deleted but will still be stored in order to support an audit of board.';
